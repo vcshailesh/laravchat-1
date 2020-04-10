@@ -1,4 +1,4 @@
-# Laravel WebSockets Demo 🛰
+# Laravel Chat Application using WebSockets Demo 🛰
 
 This is a demo application built with the [Laravel WebSockets](https://github.com/beyondcode/laravel-websockets) package.
 
