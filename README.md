@@ -1,22 +1,35 @@
-# Laravel WebSockets Demo 🛰
+## Realtime chat application
 
-This is a demo application built with the [Laravel WebSockets](https://github.com/beyondcode/laravel-websockets) package.
+This project is for the realtime chat application using laravel websockets.
 
-Be sure to check out the [official documentation](https://docs.beyondco.de/laravel-websockets/).
+## Installation and Configuration
 
-## Usage
+1. Install the composer: ```composer install```
 
-1. Clone this repository
-2. `composer install`
-3. `cp .env.example .env`
-4. `php artisan migrate`
-5. `php artisan key:generate`
-6. `php artisan websockets:serve`
+2. Copy the .env from .env.example using ``` cp .env.example .env ```.
+
+3. Setup database into environment file.
+
+4. Key generate using ``php artisan key:generate``
+
+5. The migration using ```php artisan migrate```
+
+6. Laravel websocket serve using ```php artisan websockets:serve``` 
+
+## Usage 
+If you have already registered the user then please login else register new user.
+After logged display the chat screen and logged user are drop the new message into the chat and displayed the droped message to another logged chat screen without page reload using websocket.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover any security-related issues, please email vishal@viitorcloud.com or ruchit.patel@viitor.cloud or shailesh.jakhaniya@viitor.cloud instead of using the issue tracker.
 
 ## Credits
 
-- [Marcel Pociot](https://github.com/mpociot)
-- [Freek Van der Herten](https://github.com/freekmurze)
 - [All Contributors](../../contributors)
 
 ## License
